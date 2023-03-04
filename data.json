@@ -1,21 +1,41 @@
 {
-  "text": "halo 9\n\nOn Thu, Mar 2, 2023 at 8:58 PM Đức Đàm Hồng <hongduc001h@gmail.com> wrote:\n\n> halo 8\n>\n> On Thu, Mar 2, 2023 at 12:33 AM Đức Đàm Hồng <hongduc001h@gmail.com>\n> wrote:\n>\n>> hallo 7\n>>\n>> On Thu, Mar 2, 2023 at 12:31 AM Đức Đàm Hồng <hongduc001h@gmail.com>\n>> wrote:\n>>\n>>> hello 6\n>>>\n>>> On Thu, Mar 2, 2023 at 12:29 AM Đức Đàm Hồng <hongduc001h@gmail.com>\n>>> wrote:\n>>>\n>>>> hello 5\n>>>>\n>>>> On Thu, Mar 2, 2023 at 12:25 AM Đức Đàm Hồng <hongduc001h@gmail.com>\n>>>> wrote:\n>>>>\n>>>>> hello 4\n>>>>>\n>>>>> On Thu, Mar 2, 2023 at 12:14 AM Đức Đàm Hồng <hongduc001h@gmail.com>\n>>>>> wrote:\n>>>>>\n>>>>>> hello 3\n>>>>>>\n>>>>>> On Wed, Mar 1, 2023 at 11:35 PM Đức Đàm Hồng <hongduc001h@gmail.com>\n>>>>>> wrote:\n>>>>>>\n>>>>>>> again 2\n>>>>>>>\n>>>>>>> On Wed, Mar 1, 2023 at 11:34 PM Đức Đàm Hồng <hongduc001h@gmail.com>\n>>>>>>> wrote:\n>>>>>>>\n>>>>>>>> again\n>>>>>>>>\n>>>>>>>> On Wed, Mar 1, 2023 at 11:14 PM Đức Đàm Hồng <hongduc001h@gmail.com>\n>>>>>>>> wrote:\n>>>>>>>>\n>>>>>>>>> Đức Đàm\n>>>>>>>>>\n>>>>>>>>\n",
-  "references": [
-    "CAPDBx1iZorRsYKYS8fA4hueRKMBx7z9iL_gz85tptjWWij6sTw@mail.gmail.com",
-    "CAPDBx1h+z4DgX8+P_jASQC+ZwP_dgKb=OAp=e-7NmZ3iDJwMUQ@mail.gmail.com",
-    "CAPDBx1h5Sb=O77vzK2E+eiMRFtU2mBH2_T2Po_p_bTX+FSz1xw@mail.gmail.com",
-    "CAPDBx1hou=WJiO-OJNODPk7TeEmZxF6XYpD3r1DGkEWszb8Xyg@mail.gmail.com",
-    "CAPDBx1jhjYcTbsGGmakByqQxLxq_=NOh-JTv1R9sNDMWFz_ESA@mail.gmail.com",
-    "CAPDBx1j1exajswn+r43seQRUWLOi1g3u4U7_FO4VqLAD9turVQ@mail.gmail.com",
-    "CAPDBx1j3Aoo8O6+1xmDjqork3Qjqs7n+qez1M5FUn8HnMZT1-g@mail.gmail.com",
-    "CAPDBx1iOYEV2w36Off6w-HeXw4e_DX4eieKonnAENOzUE617vQ@mail.gmail.com",
-    "CAPDBx1gGnMiJosD6O2+oAYg2xiC-T2EYqxnOJZmHuXpB_XO1DQ@mail.gmail.com"
-  ],
-  "subject": "Re: [TEST MAIL NOTI]",
+  "html": "<div dir=\"ltr\">How do you feel today ?</div>\n",
+  "text": "How do you feel today ?\n",
+  "headers": {
+    "delivered-to": "uservice.system23@gmail.com",
+    "received": [
+      "by 2002:a05:7300:8ba7:b0:9f:b231:3184 with SMTP id a39csp1281269dys; Sat, 4 Mar 2023 00:47:26 -0800 (PST)",
+      "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41]) by mx.google.com with SMTPS id gf17-20020a170906e21100b008dcb559dbd4sor2583570ejb.23.2023.03.04.00.47.25 for <uservice.system23@gmail.com> (Google Transport Security); Sat, 04 Mar 2023 00:47:26 -0800 (PST)"
+    ],
+    "x-received": [
+      "by 2002:a17:906:ce39:b0:8aa:f2f2:7543 with SMTP id sd25-20020a170906ce3900b008aaf2f27543mr4570608ejb.29.1677919646095; Sat, 04 Mar 2023 00:47:26 -0800 (PST)",
+      "by 2002:a17:906:6882:b0:8de:e66a:d788 with SMTP id n2-20020a170906688200b008dee66ad788mr2157611ejr.7.1677919645436; Sat, 04 Mar 2023 00:47:25 -0800 (PST)"
+    ],
+    "arc-seal": "i=1; a=rsa-sha256; t=1677919646; cv=none; d=google.com; s=arc-20160816; b=q9tD+iAqoncy7ObevVu6aZtf596nOaI0EQmsxGVWCR4KPMeKOr5TKGMiMItTHCH2IV 5ia1GQMyaYmWFE6NRkPtFv7vxew1CLsEq3J6yI0RqhFgQycUE3YZEKrXYNkWHtwg16rB CjFKZ1czAR3NgOT5foPbw5Pi9QbXRDyXAT0deCOfb19E/UoSm0ziOAsodFZ1TrNe1kmK yVVhAUTthcKI/VNr5p6j5lRXaG5o9Y+4kwmzA6wmENElEBQHcpoAeUcehw0RCUC2dw0O +6kw/QDcX9YUr1B08LG9AXX1Xrb9GZ5LrmUYg4k97TTXLmIsqtlnb/hwrk93V3BQyzsg 1MMQ==",
+    "arc-message-signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816; h=to:subject:message-id:date:from:mime-version:dkim-signature; bh=VYWUu/Y/jIJqeSL+oAK5a5X62nGtyBH790/Fr4BlO4I=; b=zUALtxr+Cqa+8BnrFu+nt0kQub+cD0NUg1E2ygRaH9ku2AVp17+i/TMPGK1oH0WRhI hSr3w5HkxwcxDByCKaYVgDgFzrz309/7TAanrcBF0QDfPDHwJs3dogWWvaEoL3E5VMU5 CICekJ/aJyj0HmdZZHPpQBuRNGB6UXxH3y2RY8FL93o1xNpeXrz39R9VsV+nFnJRvjgg ho+E4b9RKJsR4g9H18RV8/11uOcJOVXlK1b4dNq1YndjVAedvHJQNvXCL1U+FzhVTYQG obcNh0PU30XHf0k1LMImBRu9b3YOsAxhbzZL7ZBiwNa/oUIX4bSR4b1icUBGNA3kx49x qoiw==",
+    "arc-authentication-results": "i=1; mx.google.com; dkim=pass header.i=@gmail.com header.s=20210112 header.b=\"J/+xNw0m\"; spf=pass (google.com: domain of hongduc001h@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=hongduc001h@gmail.com; dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com",
+    "return-path": "<hongduc001h@gmail.com>",
+    "received-spf": "pass (google.com: domain of hongduc001h@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;",
+    "authentication-results": "mx.google.com; dkim=pass header.i=@gmail.com header.s=20210112 header.b=\"J/+xNw0m\"; spf=pass (google.com: domain of hongduc001h@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=hongduc001h@gmail.com; dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com",
+    "dkim-signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20210112; t=1677919645; h=to:subject:message-id:date:from:mime-version:from:to:cc:subject :date:message-id:reply-to; bh=VYWUu/Y/jIJqeSL+oAK5a5X62nGtyBH790/Fr4BlO4I=; b=J/+xNw0mz8Ic4HVzz9IPd1u/J40APH4N9Qm1kPE1iuBwNeWTGUY2jNk1VN+PSeqGfZ a5aorUWybstPYsNhHqs5yhEC2nbUvb0zl6/0YlQ+q+atcXPxinsXMyRU9OiDYRqyd7pU RzJwlQ/BwodcrnR5MDxgEWcEl4SE4kh6b/SPers5Dvsbf1L3zN2Ic28W6AKE9Y5+Fk7v cd8QKUQdOeV4LGL5T37aMIbrO3tPDzKEdSqutK2tDJyoBiKd+6vCjKTuIfWLrAer1QPR YTcoN7d08A5h5NO++/6kiFjpx/gKgMswWlR10zg0xYvn1BQIhRhOIeKv832LfVTyxqOn FMfQ==",
+    "x-google-dkim-signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20210112; t=1677919645; h=to:subject:message-id:date:from:mime-version:x-gm-message-state :from:to:cc:subject:date:message-id:reply-to; bh=VYWUu/Y/jIJqeSL+oAK5a5X62nGtyBH790/Fr4BlO4I=; b=ECWRtCrd7Z7VvQL73NCJksmLzxuoV2nzGpEky43plh+M/KpPea5ULdgQQCbLf4qXs2 2O1PyDzE+qt5ZmJvBzmSYcHTYlkQ2xywrcTK/FaEg0hANqLS2FHl93IEeLcIFIy4SgMI QRCF3mTVyhRePGV5K5Htb9WkFHP+08aXj8kUjjUv3w7prg2UqxM1UkSPdMLE2NbX8r+x zTsPxibwaPfzwZIgvOmt5Tx6YP82FLHOALxOCwREKrJ+pXQIBH/daYjezCKSrOTJOG7f Gv9TlxQWi4aZMA+M4VxQQWbnoQTWlq7toL9NB3zfUYS5wDZOwwfc8qls1sfPL6oQz+2f /dHw==",
+    "x-gm-message-state": "AO0yUKX6RlhqArhP0WnAshT6pzF7yjwPBob7i+lqZM+o5m9ROZgYK0Di cYYm86NwCcSRxgYmxNIbV7fOIueG9/LNPxPxOQk2UzOd5wM=",
+    "x-google-smtp-source": "AK7set+0krhaL60j9ZavD8BWMw0AnLctwPcz0BlUBwRDolHYD0GD0GvP1Hf670E/auRYwyw09dV/ZTVkQKqt4tDjmM4=",
+    "mime-version": "1.0",
+    "from": "Đức Đàm Hồng <hongduc001h@gmail.com>",
+    "date": "Sat, 4 Mar 2023 15:47:13 +0700",
+    "message-id": "<CAPDBx1jA+aoDVK09JbY9MBmXVQcc9Hs_HyHfaMA7MMG+z0SWdA@mail.gmail.com>",
+    "subject": "[04/03/2023 TEST]",
+    "to": "uservice.system23@gmail.com",
+    "content-type": "multipart/alternative; boundary=\"0000000000006d90c105f60f1c4a\""
+  },
+  "subject": "[04/03/2023 TEST]",
+  "messageId": "CAPDBx1jA+aoDVK09JbY9MBmXVQcc9Hs_HyHfaMA7MMG+z0SWdA@mail.gmail.com",
+  "priority": "normal",
   "from": [{ "address": "hongduc001h@gmail.com", "name": "Đức Đàm Hồng" }],
   "to": [{ "address": "uservice.system23@gmail.com", "name": "" }],
-  "date": "2023-03-02T14:21:49.000Z",
-  "receivedDate": "2023-03-02T14:22:01.000Z",
-  "uid": 15,
+  "date": "2023-03-04T08:47:13.000Z",
+  "receivedDate": "2023-03-04T08:47:26.000Z",
+  "uid": 27,
   "flags": ["\\Seen"]
 }

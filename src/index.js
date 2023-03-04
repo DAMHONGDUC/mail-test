@@ -3,34 +3,18 @@ const notifier = require("mail-notifier");
 // đăng nhập
 const imap = {
   user: "uservice.system23@gmail.com",
-  password: "fugfhmauwxvhuzuk",
+  password: "nidyapovixzbtihx",
 
+  // phần này là setting mặc định để lắng nghe mail tới - chi tiết https://www.lifewire.com/what-are-the-gmail-imap-settings-1170852
   host: "imap.gmail.com",
   port: 993, // imap port
   tls: true, // use secure connection
   tlsOptions: { rejectUnauthorized: false },
 };
 
-const reduceProp = (mail) => {
-  const data = {
-    text: mail.text,
-    references: mail.references,
-    subject: mail.subject,
-    from: mail.from,
-    to: mail.to,
-    date: mail.date,
-    receivedDate: mail.receivedDate,
-    uid: mail.uid,
-    flags: mail.flags,
-  };
-
-  return JSON.stringify(data);
-};
-
 // hàm này chỉ được call khi có mail mới
 notifier(imap)
   .on("mail", (mail) => {
-    console.log(reduceProp(mail));
-    console.log(mail);
+    console.log(JSON.stringify(mail));
   })
   .start();
